@@ -30,7 +30,7 @@ duplicati/
 
 1. **Clona el repositorio:**
    ```bash
-   git clone https://github.com/tu_usuario/duplicati-docker.git
+   git clone https://github.com/JLalib/duplicati-docker.git
    cd duplicati-docker
    ```
 
