@@ -49,6 +49,11 @@ duplicati/
    - URL: [http://localhost:8200](http://localhost:8200)
    - Usuario y contraseña definidos en las variables de entorno.
 
+5. **Comandos crear y montar la unidad**
+   - sudo apt update && sudo apt install cifs-utils -y
+   - sudo mkdir -p /mnt/nas_backups
+   - sudo mount -t cifs //IP-NAS/duplicati /mnt/nas_backups   -o username=genbyte,password=#P4ssw0rd@,vers=3.0
+   - ls /mnt/nas_backups
 ---
 
 ## 🧩 Variables de Entorno
